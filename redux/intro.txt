@@ -1,0 +1,67 @@
+Redux
+    > State Management for any Javascript application
+    > For REACT, ANGULAR, Vanilla Javascript, Vue
+
+When to use Redux?
+    > App with Complex UI
+    >  Keep in sync with diff part of UI
+    > Data change can happen because of Network calls, events etc.. and to be in sync in multiple components,
+    > Data flow between different components, update immediately etc..,
+
+Need to maintain or to know How data changed?
+    > Need state management library
+
+Some State management tools
+    > Flux
+        FaceBook - had state problem, came up with (flux)
+    > Redux - inspired by flux (popular, because of simplicity and elegance)
+    >  Mobx
+
+Redux
+    > Store all app state in the central repository
+    > Simple object
+    > Single DB for UI
+    > No app will maintain its state, but get from a single place
+    > if need update it will update in the global state
+    > Helps in Sync data with applications
+    > Also, helps in    
+        how - data changed,
+        why - data changed,
+        when - data changed,
+        and where it came from
+    
+Nutshell
+    > Centralized appliaction state
+    > Makes data flow transparent and predictable
+
+
+Pros & cons
+    Pros
+        > Centralized state - all data in a single state - All data in sync
+        > Time travel with earlier change (Jump to any state and restore the UI to debug)
+        > Allow caching the maintain the state
+        > State change is predictable and transparent
+        > implement undo/Redo
+        > Works with any JS
+        > Ecosystem of add-ons
+
+    Cons
+        > Some complexity (Functional programing principle)
+        > Verbos (need to write lot of boiler plate)
+
+Choice of Redux is based on -
+    > What problem we are trying to solve?
+    > What all the possible solutions?
+    > What constraints we have? 
+
+ When NOT to use Redux?
+    > Tight budget
+    > Small or medium size application
+    > Simple UI / data flow
+    > Static data -(Just data or get API always and render it)
+
+Debugging
+    Redux Dev tool helps in view the state data and to do the time travel debugging
+
+Production Log
+    Log Rocket > Helps in logging the data in production and do the time travel and debug
