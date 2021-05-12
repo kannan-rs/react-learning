@@ -65,3 +65,56 @@ Debugging
 
 Production Log
     Log Rocket > Helps in logging the data in production and do the time travel and debug
+
+
+Redux Content
+    > It is based on Functional programming
+        >> Higher Order Functions,
+        >> Composition, 
+        >> Currying,
+        >> immutability
+    > Fundementals of Redux
+        >> All the building block of Redux
+        >> Reducers, 
+        >> Actions,
+        >> Action creators.
+    > Building Redux from Scratch
+    > Debugging Redux application
+        >> Various Tools and Debugging
+    > Writing Clean code in Redux
+        >> Clean, 
+        >> Concice,
+        >> proper redux code.
+    > Design Redux Store (For Complex Applications)
+        >> Patterns
+        >> Techniques
+    > Middleware
+        >> Super simplified way of Middleware
+    > Calling API
+        >> Cool way of codinng.
+        >> Loading indicator,
+        >> Caching
+    > Testing Redux applications  
+        >> Good practice for good testing
+    > Integrating Redux into React Applications
+        > Old way of connecting components to Redux
+        > New way of Connecting Components to Redux
+
+
+Functional programming
+    Redux build on top op functional programming
+    > Compose a problem into a bunch of small functions, that can be reused
+    > input -> [Function] -> output
+    > provide same o/p for same i/p
+    > multiple functions combined to build more complex systems
+        >> [Function] [Function] [Function]...
+    > Benifites
+        >> More Concise
+        >> Easy to understand and Debugging
+        >> Easy to test
+        >> More Scalable
+    > Runc many functions in parallel and take the advantage of multiple cores of CPU
+
+    JavaScript (Multi Dimention programing language)
+    
+
