@@ -117,4 +117,45 @@ Functional programming
 
     JavaScript (Multi Dimention programing language)
     
+Redux Architecture
+    > Maintain the state of the Javascript application
+    > Mintains in a single Object called Store
+    > Store is the source of truth
+    > Store is accessible by all parts of UI (All component at any level at any nesting can access)
 
+Store  
+    > Object
+    > Contain any thing in it - No restriction
+    > Not possible to directly modify the Store
+    > To update it has to be done by a function
+        >> Takes Store as input
+        >> CLone it to new object
+        >> Do necessery modufication in new object
+        >> Return it
+        NOTE: Function does this operation is called REDUCER
+
+    > Action Defines which Store to update
+        >> 2nd Param to Reducer,
+        >> Type: Object
+        >> must have "type" as property (this tells which state to update)
+
+Building Blocks
+
+ACTION* >>>> STORE >>>> REDUCER*
+(Events)                (Event Handler)
+                        (Pure functions)
+
+                        |                (dispatch)                     |       |               (Forwards)                  |        |
+            User Action |                                               | STORE |                                           |        | (Reducer Modifies &
+    (Creat Action object|--------------------->------------------------>|       |-------------------->--------------------->| REDUCER|      Send the updated state
+         & displatch)   |                                               |       | (Store Directly forwards to Reducer)      |        |      to store)
+    (Adding an item     |                                               |       | - - - - -< - - - - - < - - - - -<- - - - -|        |
+        to the CART)
+
+    > (No direct communication between Dispatcher and Reducer)
+    > (Store > Notify all the UI component about the state update)
+
+    Multiple Displath > Single Pipe to Store
+    Advantage
+        >> Log every thing in sequence
+        >> Helps in Forward and Backawrd state play (Time travel)
