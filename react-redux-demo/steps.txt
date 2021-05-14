@@ -1,0 +1,8 @@
+Create a project using npx
+    npx create-react-app <project name>
+
+install required packages for redux - inside the <Project folder>
+    npm install redux react-redux
+
+
+// Go through Uage warnings
