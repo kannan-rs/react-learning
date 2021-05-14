@@ -1,6 +1,8 @@
 Redux
     > State Management for any Javascript application
-    > For REACT, ANGULAR, Vanilla Javascript, Vue
+        >> For REACT, ANGULAR, Vanilla Javascript, Vue
+    > State Container
+    > Predictable state
 
 When to use Redux?
     > App with Complex UI
@@ -159,3 +161,6 @@ ACTION* >>>> STORE >>>> REDUCER*
     Advantage
         >> Log every thing in sequence
         >> Helps in Forward and Backawrd state play (Time travel)
+
+// library
+React-Redux > Specifically for React

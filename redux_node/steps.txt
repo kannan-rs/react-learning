@@ -1,0 +1,20 @@
+// Create a npm package busing init (npm init --yes)
+// Install Redux using (npm install redux)
+// Create JS file for Store sample (index.js)
+
+
+
+// Middleware
+    Helps in extend Redux with custom functionality
+    Redux with Extra features - Then Middleway is the way to go
+
+    Third party extension point Between DISPATCHER (Dispacthing an action) and Reducer (moment it reaching the reducer)
+
+    Usage
+        > logging
+        > Crash reporting
+        > Performing API Async calls etc..,
+    
+    How to use Middle ware?
+        > Using "redux-logger"
+

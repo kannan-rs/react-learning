@@ -18,7 +18,12 @@
 */
 // Redux Basic > Functional programming ends
 
-// Bug Tracking Simple example
-import SimpleBugTracker from "./simpleBugListStore/BugTrackingAppRedux"
 
-SimpleBugTracker()
+
+
+// Bug Tracking Simple example
+/*
+    import SimpleBugTracker from "./simpleBugListStore/BugTrackingAppRedux"
+
+    SimpleBugTracker()
+*/
