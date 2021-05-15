@@ -17,7 +17,7 @@ class ParentRenderProps extends Component {
                     method = {this.methodToChild }
                     method2 = { () => { return "Kannan"} }
                     method3 = { () => "Kannan" }
-                    method4 = { (loggedIn) => loggedIn.toLowerCase() == "loggedin" ? "Welcome User" : "welcome Guest"} 
+                    method4 = { (loggedIn) => loggedIn.toLowerCase() === "loggedin" ? "Welcome User" : "welcome Guest"} 
                     render = { () => { return "Returning from Render Method" }}>
                 </BasicRenderPropsSharing>
 

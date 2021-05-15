@@ -34,7 +34,8 @@ function ArrayListRender() {
     
     return (
         <div>
-            With Name List
+            <h2>Render the list of elements from array</h2>
+            <h3>Each List in the array Calls the CHILD COMPONENT for render 1 item</h3>
             { personsList }
         </div>
     )

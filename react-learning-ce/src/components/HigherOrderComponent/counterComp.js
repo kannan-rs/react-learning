@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const withCounter = (WrappedComponent, incNumber) => {
     class WithCounter extends React.Component {

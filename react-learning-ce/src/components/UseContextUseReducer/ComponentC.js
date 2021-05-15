@@ -1,11 +1,11 @@
 import React from 'react'
-import ComponentE_CChild from './ComponentE_CChild'
+import ComponentECChild from './ComponentECChild'
 
 function ComponentC() {
     return (
         <div>
             Parent  {'>'} Comp C
-            <ComponentE_CChild />
+            <ComponentECChild />
         </div>
     )
 }

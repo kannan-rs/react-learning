@@ -2,7 +2,7 @@ import React, { useContext} from 'react'
 import { CountContext } from './ParentUseContextUseReducer'
 
 
-function ComponentD_BChild() {
+function ComponentDBChild() {
     const countContext = useContext(CountContext)
     return (
         <div>
@@ -16,4 +16,4 @@ function ComponentD_BChild() {
     )
 }
 
-export default ComponentD_BChild
+export default ComponentDBChild

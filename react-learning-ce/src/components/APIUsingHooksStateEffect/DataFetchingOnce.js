@@ -33,7 +33,7 @@ function DataFetchingOnce() {
     return (
         <div>
             <h2> Data Fecth from API using HOOKS "useState and UseEffects"</h2>
-            { loading && error == "" ? "Loading" : post.title }
+            { loading && error === "" ? "Loading" : post.title }
             {error }
         </div>
     )

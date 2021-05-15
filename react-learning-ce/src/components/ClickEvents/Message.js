@@ -17,8 +17,11 @@ class Message extends Component {
     }
     render() {
         return (<div>
-            <h1>{ this.state.message }</h1>
-            <button onClick= { () => this.changeMessage() }>subscribe</button>
+            <h2> Class Component</h2>
+            <h3><i>Manage State and Basic Click Event Handler</i></h3>
+            <h3>{ this.state.message }</h3>
+            <button onClick= { () => this.changeMessage() }>subscribe - (My Event update the state) </button>
+            <hr />
         </div>)
     }
 }

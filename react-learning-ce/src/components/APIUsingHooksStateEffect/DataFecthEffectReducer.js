@@ -53,7 +53,7 @@ function DataFecthEffectReducer() {
     return (
         <div>
             <h2> Data Fecth from API using HOOKS "useReducer and UseEffects"</h2>
-            { postObj.loading && postObj.error == "" ? "Loading" : postObj.post.title }
+            { postObj.loading && postObj.error === "" ? "Loading" : postObj.post.title }
             { postObj.error }
         </div>
     )
